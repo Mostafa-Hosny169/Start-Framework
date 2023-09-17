@@ -1,0 +1,71 @@
+#contact {
+    padding-top: 7.3rem;
+   }
+
+#contact .header-contact{
+    color: #2C3E50;
+}
+
+.icon:after{
+    content: "";
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    right:35px;
+    transform: translateY(-50%);
+    background-color: #2C3E50;
+}
+
+.icon:before{
+    content: "";
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left:35px;
+    transform: translateY(-50%);
+    background-color:#2C3E50;
+}
+
+#contact .input-data input{
+    border: none;
+    border-radius: .3125rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.106); 
+}
+#contact .input-data input:focus{
+    outline: none;
+}
+
+#contact .input-data .labelFalse{
+    position: relative;
+    top: 20px;
+    z-index: -5;
+    transition: .6s top;
+    color: rgb(28, 185, 154);
+}
+
+#contact .input-data .labelTrue{
+    position: relative;
+     top: -10px; 
+    color: rgb(28, 185, 154);
+    padding-left: .4375rem;
+    transition: .6s top;
+}
+
+#contact .input-data button{
+    border: none;
+    background-color: rgb(28, 185, 154);
+    padding: .4375rem .625rem;
+    border-radius: .3125rem ;
+    color: white;
+}
+#contact .input-data button:focus{
+    transform: scale(0.95);
+}
+
+@media (max-width: 767.98px) {
+   .input-data{
+    width: 100% !important;
+   }
+}

@@ -1,0 +1,33 @@
+
+#home{
+   background-color: #1ABC9C; 
+   padding-top: 5rem;
+   padding-bottom: 2.6rem;
+}
+
+img{
+    width: 250px;
+}
+
+.icon:after{
+    content: "";
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    right:35px;
+    transform: translateY(-50%);
+    background-color: white;
+}
+
+.icon:before{
+    content: "";
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left:35px;
+    transform: translateY(-50%);
+    background-color: white;
+}
+

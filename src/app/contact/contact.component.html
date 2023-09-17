@@ -1,0 +1,39 @@
+
+<section id="contact">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-contact text-center pt-4 pb-5">
+                    <h2 class="text-uppercase fw-bold fs-1">contact section</h2>
+                    <div class="icon position-relative d-inline">
+                    <i class="fa-solid fa-star py-2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">   
+            <div class="col-12">
+                <form class="input-data mx-auto w-50 mb-3 mt-4">
+                    <div class="holder mb-3">
+                        <label for="userName" class="d-block" [class]="nameState? 'labelTrue' : 'labelFalse'">userName :</label>
+                    <input type="text" id="userName" class="w-100 p-2" placeholder="userName" (keyup)="name($event)">  
+                    </div>
+                    <div class="holder mb-3">
+                        <label for="userAge" class="d-block" [class]="ageState? 'labelTrue' : 'labelFalse' ">userAge :</label>
+                    <input type="number" id="userAge" class="w-100 p-2" placeholder="userAge" (keyup)="age($event)">  
+                    </div>
+                    <div class="holder mb-3">
+                        <label for="userEmail" class="d-block" [class]="emailState? 'labelTrue' : 'labelFalse'">userEmail :</label>
+                    <input type="email" id="userEmail" class="w-100 p-2" placeholder="userEmail" (keyup)="email($event)">  
+                    </div>
+                    <div class="holder mb-3 pb-3">
+                        <label for="userPassword" class="d-block" [class]="passwordState? 'labelTrue' : 'labelFalse'">userPassword :</label>
+                    <input type="password" id="userPassword" class="w-100 p-2" placeholder="userPassword" (keyup)="password($event)">  
+                    </div>
+                    <button type="submit">send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

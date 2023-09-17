@@ -1,0 +1,27 @@
+#footer-top{
+    background-color: #2C3E50;
+}
+
+#footer-top .location-data{
+    font-size: 15.5px;
+}
+
+#footer-top .web-data span{
+    margin-inline: .27rem;
+    font-size: 1.125rem;
+    padding: .3125rem .5rem;
+    border:1px solid white ;
+    border-radius: 50%;
+}
+
+#footer-top .web-data .icons{
+    margin-top: .9375rem;
+}
+
+#footer-top .web-data span:hover{
+    background-color: #1ABC9C;
+}
+
+#footer-bottom{
+    background-color: #19232D;
+}

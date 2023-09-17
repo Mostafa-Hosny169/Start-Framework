@@ -1,0 +1,28 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    background-color: #2C3E50 !important;
+    padding-block: 1.5625rem;
+    transition: .5s padding;
+}
+
+nav.scrolled {
+    padding-block: 10px;
+    transition: .7s padding;
+  }  
+
+.navbar .navbar-nav{
+    font-weight: bold;
+}
+
+.navbar .navbar-nav li{
+    margin-inline: .625rem;
+}
+
+.navbar .navbar-nav li .active {
+    background-color: #1ABC9C !important;
+    border-radius:.625rem ;
+}

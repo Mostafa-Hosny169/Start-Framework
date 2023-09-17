@@ -1,0 +1,31 @@
+#about{
+    height: 97vh;
+    padding-top: 5rem;
+   background-color: #1ABC9C;
+}
+
+.icon:after{
+    content: "";
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    right:35px;
+    transform: translateY(-50%);
+    background-color: white;
+}
+
+.icon:before{
+    content: "";
+    width: 90px;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left:35px;
+    transform: translateY(-50%);
+    background-color: white;
+}
+
+#about .about-info{
+    padding-inline: 10px;
+}
